@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Info3 extends StatelessWidget {
+class InfoAboutTheThirdFrame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class Info2 extends StatelessWidget {
+class InfoAboutTheSecondFrame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
