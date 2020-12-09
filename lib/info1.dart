@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter/widgets.dart';
 import 'Gallery.dart';
 
 class InfoAboutTheFirstFrame extends StatelessWidget {
@@ -24,17 +24,18 @@ class InfoAboutTheFirstFrame extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  margin: EdgeInsets.only(left: 30, right: 10, bottom: 30),
-                  width: 300,
-                  height: 300,
-                  decoration: BoxDecoration(
-                    border: Border.all(),
-                    image: DecorationImage(
-                      image: Image.network(
-                              'https://i.pinimg.com/564x/c1/4c/8c/c14c8c4d325a2232506959175c2f91c4.jpg')
-                          .image,
-                      fit: BoxFit.cover,
+                Center(
+                  child: Container(
+                    width: 300,
+                    height: 300,
+                    decoration: BoxDecoration(
+                      border: Border.all(),
+                      image: DecorationImage(
+                        image: Image.network(
+                                'https://i.pinimg.com/564x/c1/4c/8c/c14c8c4d325a2232506959175c2f91c4.jpg')
+                            .image,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ),
